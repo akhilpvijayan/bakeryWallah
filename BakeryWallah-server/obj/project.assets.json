@@ -6594,11 +6594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\BakeryWallah\\BakeryWallah.csproj",
+      "projectUniqueName": "C:\\BakeryWallah\\bakeryWallah\\BakeryWallah-server\\BakeryWallah.csproj",
       "projectName": "BakeryWallah",
-      "projectPath": "C:\\BakeryWallah\\BakeryWallah.csproj",
+      "projectPath": "C:\\BakeryWallah\\bakeryWallah\\BakeryWallah-server\\BakeryWallah.csproj",
       "packagesPath": "C:\\Users\\Akhil\\.nuget\\packages\\",
-      "outputPath": "C:\\BakeryWallah\\obj\\",
+      "outputPath": "C:\\BakeryWallah\\bakeryWallah\\BakeryWallah-server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Akhil\\AppData\\Roaming\\NuGet\\NuGet.Config",

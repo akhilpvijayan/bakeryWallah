@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ry6/mMVs91j0M8EU1W6ENrP3XL1q0Y2JP2Xvk10GsifCWuwbkwZLHLG6IzGj8fOd/3jLkuVJtCqhkIt6fiaqgg==",
+  "dgSpecHash": "H5S5hv3YRpKRN2Q2h8iSXN3R5WJXyxiIdlyw0rz7dQKlm2W8fzbxfFWsS4+yMFVjKcrnhqOon0OtHPdPYgBwKg==",
   "success": true,
-  "projectFilePath": "C:\\BakeryWallah\\BakeryWallah.csproj",
+  "projectFilePath": "C:\\BakeryWallah\\bakeryWallah\\BakeryWallah-server\\BakeryWallah.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akhil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Akhil\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
