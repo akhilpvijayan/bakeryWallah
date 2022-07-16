@@ -16,9 +16,10 @@ namespace BakeryWallah.Models
         public string productName { get; set; }
         [Required]
         public string productDescription { get; set; }
-        [ForeignKey("User")]
+        [ForeignKey("Users")]
         [Required]
         public int bakerId { get; set; }
+        public virtual Users Users { get; set; }
         [Required]
         public bool IsAvailable { get; set; }
         [Required]

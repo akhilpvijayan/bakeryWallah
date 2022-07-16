@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace BakeryWallah.Business.Services
 {
-    public interface IUserService
+    public interface IProductService
     {
-        IEnumerable<IUsers> GetAllUsers();
-        ResponseModel AddUser(Users users);
-        ResponseModel AddUserTypes(UserTypes userType);
+    Task<List<ProductViewmodel>> GetAllProducts();
+    ResponseModel AddProduct(Products products);
     }
 }

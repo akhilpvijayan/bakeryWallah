@@ -1,4 +1,5 @@
 ﻿using BakeryWallah.Business.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -15,5 +16,6 @@ namespace BakeryWallah.Models
         public string UserType { get; set; }
         [Required]
         public bool IsActive { get; set; }
+
     }
 }

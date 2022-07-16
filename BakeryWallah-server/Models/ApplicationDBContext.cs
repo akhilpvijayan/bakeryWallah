@@ -10,9 +10,11 @@ namespace BakeryWallah.Models
     {
         public ApplicationDBContext(DbContextOptions options) : base(options)
         {
+            
         }
 
         DbSet<Users> Users { get; set; }
         DbSet<UserTypes> UserTypes { get; set; }
+        DbSet<Products> Products { get; set; }
     }  
 }

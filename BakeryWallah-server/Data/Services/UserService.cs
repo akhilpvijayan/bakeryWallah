@@ -34,5 +34,17 @@ namespace BakeryWallah.Data.DataServices
             }
             return model;
         }
+        public ResponseModel AddUserTypes(UserTypes userType)
+        {
+            ResponseModel model1 = new ResponseModel();
+            if (_applicationDBContext != null)
+            {
+                _applicationDBContext.Add<UserTypes>(userType);
+                _applicationDBContext.SaveChanges();
+                model1.Messsage = "UserType Added Successfully";
+                model1.IsSuccess = true;
+            }
+            return model1;
+        }
     }
 }

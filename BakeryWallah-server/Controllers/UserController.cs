@@ -39,5 +39,16 @@ namespace BakeryWallah.Controllers
         }
         #endregion
 
+        #region add usertypes
+        [HttpPost]
+        [Route("UserTypes")]
+        [ProducesResponseType(typeof(UserTypes), 200)]
+        [ProducesResponseType(404)]
+        public async Task<IActionResult> AddUserTypes(UserTypes userType)
+        {
+            return Ok(_userService.AddUserTypes(userType));
+        }
+        #endregion
+
     }
 }

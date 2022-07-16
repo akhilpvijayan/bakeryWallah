@@ -1,6 +1,8 @@
 using BakeryWallah.Business.Services;
 using BakeryWallah.Data.DataServices;
+using BakeryWallah.Data.Services;
 using BakeryWallah.Models;
+using BakeryWallah.Models.Seed;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -37,6 +39,8 @@ namespace BakeryWallah
             services.AddDbContext<ApplicationDBContext>(item => item.UseSqlServer(Configuration.GetConnectionString("myconn")));
 
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IProductService, ProductService>();
+            //services.AddTransient<SeedData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
